@@ -1,0 +1,125 @@
+@media only screen and (max-width: 600px) {}
+
+body {
+  font-family: 'Neucha', cursive;
+  text-align: center;
+  background-image: url(https://images.twinkl.co.uk/tr/image/upload/illustation/Packet-of-Crisps-2.png);
+  background-repeat: round space;
+  background-size: 20em;
+  font-weight: 400;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color:#ceeee0;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+    font-family: 'Neucha', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+label {
+  align-items: center;
+  font-size: 1.125rem;
+}
+
+.form-group {
+  padding-top: 1em;
+  padding-bottom: 1em;
+      
+}
+
+.hint {
+  font-style: italic;
+}
+#survey-form {
+  background-size: contain;
+  border: 0em solid red;
+  background-color: #ceeee0;
+  transparency: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: 0.9;
+  border-radius: 25px;
+  margin-top: 1em;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  font-weight: 800;
+}
+
+#title {
+ background-color: #fada5e;
+ border-radius: 25px;
+}
+
+#subtitle {
+ background-color: #ff69b4;
+ border-radius: 40px;
+ opacity: 0.8;
+}
+
+#description {
+ background-color: grey;
+ border-radius: 10px;
+ color: white;
+ padding: 5px;
+}
+
+.form-group-checkbox {
+  padding: 1em;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  color: inherit;
+  border-radius: 10px;
+  
+}
+
+.form-group-radio {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 60px;
+  width: 80%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
