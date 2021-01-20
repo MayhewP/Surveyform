@@ -1,0 +1,127 @@
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body id="main">
+<div>
+<h1 id="title">THE ULTIMATE DEBATE:</h1>
+  <h2 id="subtitle">THE NATIONS FAVOURITE CRISP FLAVOUR</h2>
+  <p id="description">Fill out the survey below for your chance to <b>WIN</b> a £50 <a href="https://www.amazon.co.uk/" target="_blank">Amazon</a> voucher</p>
+  </div>
+  
+<form id="survey-form" action="">
+  
+    <!-- First Name input box -->
+  <div class="form-group">
+    <label for="name" id="name-label">NAME:</label>
+  <input type="text" 
+         id="name" 
+         name="name"
+         placeholder="John Smith"
+         required>
+  </div>
+    <!-- Email input box -->
+  <div class="form-group">
+  <label for="email"  id="email-label">EMAIL ADDRESS:</label>
+  <input type="email" 
+         id="email" 
+         name="email"
+         placeholder="example@gmail.com"
+         required
+         >
+  </div>
+  <!-- Age input box -->
+  <div class="form-group">
+    <label for="age"  id="number-label">AGE <span>(Optional):</span></label>
+  <input 
+         type="number"
+         placeholder="Age"
+         id="number" 
+         name="age"
+         min="13"
+         max="120"
+          />
+  </div>
+ <!-- Gender drop down  -->
+  <div class="form-group">
+  <label for="gender" id="gender-label">GENDER:</label><br>
+<select id="dropdown" 
+        name="gender"
+        >
+  <option disabled selected value>Select your gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+  <option value="Prefer not to Say">Prefer not to say</option>
+</select>
+  </div>
+  
+  <!-- Checkbox -->
+  <div class="form-group-checkbox">
+    <p1> SELECT THE BEST WORD(S) THAT DESCRIBE YOU <span class="hint"> (Check all that apply)</span></p1><br>
+   <input type="checkbox" id="salty" name="describeyou" value="salty">
+  <label for="vehicle1"> Salty</label><br>
+  <input type="checkbox" id="sour" name="describeyou" value="sour">
+  <label for="sour"> Sour</label><br>
+  <input type="checkbox" id="cheesy" name="describeyou" value="cheesy">
+  <label for="cheesy"> Cheesy</label><br>
+     <input type="checkbox" id="spicy" name="describeyou" value="spicy">
+  <label for="spicy"> Spicy</label><br>
+     <input type="checkbox" id="plain" name="describeyou" value="plain">
+  <label for="plain"> Plain</label><br>
+     <input type="checkbox" id="basic" name="describeyou" value="basic">
+  <label for="vehicle3"> Basic</label><br>
+     <input type="checkbox" id="mixedbag" name="describeyou" value="mixedbag">
+  <label for="mixedbag"> A mixed bag</label><br>
+     <input type="checkbox" id="stale" name="describeyou" value="stale">
+  <label for="stale"> Stale</label>
+  </div>
+  <!-- Radio buttons -->
+  <div> <h3> THE ULTIMATE QUESTION! </h3> </div>
+ <div class="form-group-radio"> 
+    <p1> WHAT IS YOUR FAVOURITE CRISP FLAVOUR? <span class="hint"> (Check one option)</span></p1><br>
+ <input type="radio" id="salted" name="flavour" value="salted">
+  <label for="salted">Ready Salted</label><br>
+  <input type="radio" id="cheeseonion" name="flavour" value="cheeseonion">
+  <label for="cheeseonion">Cheese & Onion</label><br>
+  <input type="radio" id="saltvinegar" name="flavour" value="saltvinegar">
+  <label for="saltvinegar">Salt & Vinegar</label><br>
+  <input type="radio" id="prawn" name="flavour" value="prawn">
+  <label for="prawn">Prawn Cocktail</label><br>
+  <input type="radio" id="BBQ" name="flavour" value="BBQ">
+  <label for="BBQ">BBQ</label><br>
+  <input type="radio" id="chicken" name="flavour" value="chicken">
+  <label for="chicken">Roast Chicken</label><br>
+  <input type="radio" id="bacon" name="flavour" value="bacon">
+  <label for="bacon">Smokey Bacon</label><br>
+  <input type="radio" id="paprika" name="flavour" value="paprika">
+  <label for="paprika">Paprika</label><br>
+  <input type="radio" id="other" name="flavour" value="other">
+  <label for="other">Other</label><br>
+  </div>
+ 
+   <div class="form-group">
+      <p>Your favourite not listed? Tell us below...</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your fav flavour here..."
+      ></textarea>
+    </div>
+  
+  
+ <!-- Submit button -->
+<div class="submit-button">
+<input type="submit" value="Submit" id="submit">
+</div>
+</form>  
+  
+</body>
